@@ -2,12 +2,12 @@ Summary:	Simple DirectMedia Layer 2 - network
 Summary(pl.UTF-8):	Biblioteka obsługi sieci w SDL2
 Summary(pt_BR.UTF-8):	Simple DirectMedia Layer 2 - Biblioteca de rede portável
 Name:		SDL2_net
-Version:	2.0.0
+Version:	2.0.1
 Release:	1
 License:	Zlib-like
 Group:		Libraries
 Source0:	http://www.libsdl.org/projects/SDL_net/release/%{name}-%{version}.tar.gz
-# Source0-md5:	83bcd0e67796b81b35b08a014c677200
+# Source0-md5:	5c1d9d1cfa63301b141cb5c0de2ea7c4
 URL:		http://www.libsdl.org/projects/SDL_net/
 BuildRequires:	SDL2-devel >= 2.0.0
 BuildRequires:	autoconf
