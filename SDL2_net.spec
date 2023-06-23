@@ -2,12 +2,12 @@ Summary:	Simple DirectMedia Layer 2 - network
 Summary(pl.UTF-8):	Biblioteka obsługi sieci w SDL2
 Summary(pt_BR.UTF-8):	Simple DirectMedia Layer 2 - Biblioteca de rede portável
 Name:		SDL2_net
-Version:	2.0.1
+Version:	2.2.0
 Release:	1
 License:	Zlib-like
 Group:		Libraries
 Source0:	http://www.libsdl.org/projects/SDL_net/release/%{name}-%{version}.tar.gz
-# Source0-md5:	5c1d9d1cfa63301b141cb5c0de2ea7c4
+# Source0-md5:	ba1cc690ddde85ee90c80e15be9f3bf9
 URL:		http://www.libsdl.org/projects/SDL_net/
 BuildRequires:	SDL2-devel >= 2.0.0
 BuildRequires:	autoconf
@@ -94,7 +94,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES.txt COPYING.txt README.txt
+%doc CHANGES.txt LICENSE.txt README.txt
 %attr(755,root,root) %{_libdir}/libSDL2_net-2.0.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libSDL2_net-2.0.so.0
 
@@ -103,6 +103,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/libSDL2_net.so
 %{_includedir}/SDL2/SDL_net.h
 %{_pkgconfigdir}/SDL2_net.pc
+%{_libdir}/cmake/SDL2_net
 
 %files static
 %defattr(644,root,root,755)
